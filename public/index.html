@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="shortcut icon" href="./icon/google.png" type="image/x-icon">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous" defer></script>
+    <title>Google</title>
+</head>
+
+<body>
+    <header class="flex justify-end space-x-4 w-30 pt-4 pr-4">
+        <a href="https://mail.google.com/mail" class="hover:underline" target="_blank">Gmail</a>
+        <a href="https://www.google.fr/imghp" class="hover:underline" target="_blank">Images</a>
+        <img class="h-6 w-7 cursor-pointer" src="./icon/grid-icon.png">
+        <div class="bg-red-200 w-10 h-10 rounded-full relative bottom-2 text-white text-xl flex justify-center items-center cursor-pointer">
+            <span>G</span>
+        </div>
+
+    </header>
+    <!---->
+
+    <section class="grid place-items-center w-screen relative top-20 mb-40">
+        <div id="logo" class="mb-5">
+            <img src="icon/logo.png" alt="googlelogo" width="250px" height="150px">
+        </div>
+
+        <div id="search-bar" class=" border relative rounded-3xl border-gray-400 w-64 p-2 pr-4 sm:w-80 md:w-96">
+            <i class="fas fa-search w-4 h-4 text-gray-300"></i>
+            <input type="search">
+            <i class="fas fa-microphone-alt w-6 h-6 absolute right-4 text-gray-300"></i>
+        </div>
+
+        <div class="buttons flex justify-center mt-4">
+            <button class="btn p-2 mx-2 border-0 rounded-md bg-google-fade">Recherche Google</button>
+            <button class="btn p-2 mx-2 border-0 rounded-md bg-google-fade">J'ai de la chance</button>
+        </div>
+
+        <a class="text-center mt-4 underline text-indigo-700" href="https://support.google.com/websearch/answer/9586983?p=fr_tos&visit_id=637427072354171291-4231467859&rd=1">Jugement du TJ de Paris du 12 février 2019</a>
+
+    </section>
+    <!---->
+
+    <footer class="absolute bottom-0">
+        <div class="bg-gray-200 border  border-r-0 border-l-0 border-black p-2 pr-4">
+            <p class="pl-2">France</p>
+        </div>
+
+        <div class=" flex justify-around flex-wrap whitespace-nowrap bg-gray-200 border border-t-0 border-r-0 border-l-0 border-black p-2 ">
+            <a class="hover:underline" href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000055-0000000002&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Publicité</a>
+            <a class="hover:underline" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank">Entreprise</a>
+            <a class="hover:underline" href="https://about.google/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">A propos</a>
+            <a class="hover:underline" href="https://sustainability.google/intl/fr/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=" target="_blank">Comment fonctionne la recherche google?</a>
+            <a class="hover:underline" href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&visit_id=637427072354171291-4231467859&rd=1" target="_blank">Neutre en Carbone depuis 2007</a>
+            <a class="hover:underline" href="https://policies.google.com/privacy?hl=fr&fg=1" target="_blank">Confidentialité</a>
+            <a class="hover:underline" href="https://policies.google.com/terms?hl=fr&fg=1" target="_blank">Conditions</a>
+            <a class="hover:underline" href="#" target="_blank">Paramètres</a>
+
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
